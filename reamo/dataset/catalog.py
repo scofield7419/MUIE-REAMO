@@ -5,7 +5,7 @@ class DatasetCatalog:
     def __init__(self):
         # the following dataset utilized for alignment learning
         self.audiocap_enc = {
-            "target": "nextgpt.dataset.base_dataset.LazySupervisedDataset",
+            "target": "reamo.dataset.base_dataset.LazySupervisedDataset",
             "params": dict(
                 data_path="./data/T_X_pair_data/audiocap/audiocap_comprehension.json",
                 audio_folder="./data/T_X_pair_data/audiocap/audios",
@@ -15,7 +15,7 @@ class DatasetCatalog:
         }
 
         self.webvid_enc = {
-            "target": "nextgpt.dataset.base_dataset.LazySupervisedDataset",
+            "target": "reamo.dataset.base_dataset.LazySupervisedDataset",
             "params": dict(
                 data_path="./data/T_X_pair_data/webvid/webvid_comprehension.json",
                 video_folder="./data/T_X_pair_data/webvid/videos",
@@ -25,7 +25,7 @@ class DatasetCatalog:
         }
 
         self.cc3m_enc = {
-            "target": "nextgpt.dataset.base_dataset.LazySupervisedDataset",
+            "target": "reamo.dataset.base_dataset.LazySupervisedDataset",
             "params": dict(
                 data_path="./data/T_X_pair_data/cc3m/cc3m_comprehension.json",
                 video_folder="./data/T_X_pair_data/webvid/videos",
