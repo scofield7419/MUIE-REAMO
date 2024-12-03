@@ -14,7 +14,6 @@ Recognizing Everything from All Modalities at Once: Grounded Multimodal Universa
 [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/mg9ItO6s9V4)
 ![License](https://img.shields.io/badge/License-BSD-blue.svg)
 
-----------
 
 This repository contains the code of Grounded MUIE, **REAMO**.
 
